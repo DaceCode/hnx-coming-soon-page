@@ -1,0 +1,65 @@
+:root {
+  --primary-black: #141313;
+  --secondary-black: #282828;
+  --primary-white: #b3b3b3;
+  --secondary-white: #d3d3d3;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-black);
+  color: var(--secondary-white);
+}
+header {
+  font-size: 1.23rem;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-white);
+  /* text-decoration: underline; */
+}
+a.nav-link:after {
+  content: " ";
+  display: block;
+  margin-top: 5px;
+  border: 1px solid var(--primary-white);
+}
+
+header .download-btn {
+  width: 150px;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  background: -webkit-linear-gradient(5deg, #f8ceec 0%, #a88beb 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-twitter {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top: 50px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #1da1f2;
+  box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  bottom: 25px;
+  width: 100%;
+  /* background-color: red; */
+  color: white;
+  text-align: center;
+}
+footer a {
+  /* color: #1da1f2; */
+}
